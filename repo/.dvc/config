@@ -1,0 +1,6 @@
+[core]
+    analytics = false
+    remote = minio
+['remote "minio"']
+    url = s3://titanic-dvc
+    endpointurl = http://minio:9000
